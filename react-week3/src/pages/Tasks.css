@@ -1,0 +1,10 @@
+.task-page { max-width:700px; margin:20px auto; }
+.task-input { display:flex; gap:8px; margin-bottom:12px; }
+.task-input input { flex:1; padding:8px; border-radius:6px; border:1px solid #d1d5db; }
+.task-controls button { margin-right:6px; padding:6px 10px; border-radius:6px; border:1px solid #e5e7eb; background:transparent; }
+.task-controls .active { background:var(--primary); color:white; }
+.task-list { list-style:none; padding:0; }
+.task-list li { display:flex; align-items:center; gap:10px; padding:8px; border-bottom:1px solid #eef2f7; }
+.task-list li .task-text { flex:1; }
+.task-list li.done .task-text { text-decoration:line-through; color:#94a3b8; }
+.del { background:#ef4444; color:white; border:none; padding:6px 8px; border-radius:6px; cursor:pointer; }

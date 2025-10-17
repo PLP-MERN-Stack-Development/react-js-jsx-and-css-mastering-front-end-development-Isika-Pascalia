@@ -1,0 +1,6 @@
+.navbar { background: var(--card); border-bottom: 1px solid #e6e9ef; }
+.nav-inner { display:flex; align-items:center; justify-content:space-between; gap: 12px; }
+.brand a { color: var(--text); font-weight:700; text-decoration:none; }
+.nav-links a { margin: 0 8px; color: var(--muted); text-decoration:none; }
+.nav-links a:hover { color: var(--text); text-decoration:underline; }
+.nav-actions { display:flex; align-items:center; gap:8px; }

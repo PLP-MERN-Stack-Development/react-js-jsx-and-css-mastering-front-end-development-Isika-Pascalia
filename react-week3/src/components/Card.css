@@ -1,0 +1,2 @@
+.card { background: var(--card); padding: 16px; border-radius: 8px; box-shadow: 0 6px 14px rgba(16,24,40,0.06); margin-bottom: 12px; }
+.card h3 { margin-top:0; }

@@ -1,0 +1,5 @@
+.btn { padding:8px 12px; border-radius:6px; cursor:pointer; border: none; }
+.btn.primary { background:var(--primary); color:white; }
+.btn.secondary { background:#6b7280; color:white; }
+.btn.danger { background:#ef4444; color:white; }
+.btn.small { padding:6px 8px; font-size:0.9rem; }
